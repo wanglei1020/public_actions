@@ -38,3 +38,4 @@ jobs:
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           WORKWX_WEBHOOK: ${{ secrets.WORKWX_WEBHOOK }}
         run: npm ci && node index.js
+      - uses: gautamkrishnar/keepalive-workflow@v1
